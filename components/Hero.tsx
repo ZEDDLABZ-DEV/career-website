@@ -95,18 +95,18 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="bg-growth-blue text-white font-heading font-semibold px-8 py-4 rounded-xl hover:bg-blue-600 transition-all shadow-xl shadow-growth-blue/30 flex items-center justify-center gap-3 group magnetic-button">
+            <a href="https://play.google.com/store/apps/details?id=com.careercharm.newapp" target="_blank" rel="noopener noreferrer" className="bg-growth-blue text-white font-heading font-semibold px-8 py-4 rounded-xl hover:bg-blue-600 transition-all shadow-xl shadow-growth-blue/30 flex items-center justify-center gap-3 group magnetic-button">
               <span>Take Free Assessment</span>
               <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
-            </button>
-            <button className="glass-card-light text-authority font-heading font-semibold px-8 py-4 rounded-xl border border-authority/10 hover:border-authority/30 transition-all flex items-center justify-center gap-3 group magnetic-button">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.careercharm.newapp" target="_blank" rel="noopener noreferrer" className="glass-card-light text-authority font-heading font-semibold px-8 py-4 rounded-xl border border-authority/10 hover:border-authority/30 transition-all flex items-center justify-center gap-3 group magnetic-button">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 010 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z" />
               </svg>
-              <span>Download App</span>
-            </button>
+              <span>Get on Play Store</span>
+            </a>
           </div>
           {/* Trust Indicators */}
           <div className="flex flex-wrap items-center gap-6 mt-10 pt-8 border-t border-authority/10">
