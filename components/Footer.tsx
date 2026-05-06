@@ -103,7 +103,8 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/50 text-sm">© 2024 Career Charm Intelligence Lab. All rights reserved.</p>
           <div className="flex items-center gap-6">
-            {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((link, idx) => (
+            <Link href="/privacy-policy" className="text-white/50 text-sm hover:text-white transition-colors">Privacy Policy</Link>
+            {['Terms of Service', 'Cookie Policy'].map((link, idx) => (
               <a key={idx} href="#" className="text-white/50 text-sm hover:text-white transition-colors">{link}</a>
             ))}
           </div>
