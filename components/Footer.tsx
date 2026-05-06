@@ -72,11 +72,14 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-bold text-white mb-4 text-sm">Resources</h4>
             <ul className="space-y-3">
-              {['Career Blog', 'NEP 2020 Guide', 'Parent Resources', 'Success Stories', 'FAQ'].map((link, idx) => (
+              {['Career Blog', 'NEP 2020 Guide', 'Parent Resources', 'Success Stories'].map((link, idx) => (
                 <li key={idx}>
                   <a href="#" className="text-white/60 hover:text-white text-sm transition-colors">{link}</a>
                 </li>
               ))}
+              <li>
+                <Link href="/faq" className="text-white/60 hover:text-white text-sm transition-colors">FAQ</Link>
+              </li>
             </ul>
           </div>
           <div>

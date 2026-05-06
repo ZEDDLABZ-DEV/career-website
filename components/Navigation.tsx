@@ -38,6 +38,10 @@ export default function Navigation() {
           Insights
           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-success-gold transition-all group-hover:w-full"></span>
         </a>
+        <Link href="/faq" className="text-authority/70 hover:text-authority transition-all font-medium text-sm relative group">
+          FAQ
+          <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-success-gold transition-all group-hover:w-full"></span>
+        </Link>
       </div>
       <a href="https://play.google.com/store/apps/details?id=com.careercharm.newapp" target="_blank" rel="noopener noreferrer" className="bg-growth-blue text-white font-heading font-semibold px-6 py-2.5 rounded-xl hover:bg-blue-600 transition-all shadow-lg shadow-growth-blue/20 magnetic-button text-sm">
         Take Test
