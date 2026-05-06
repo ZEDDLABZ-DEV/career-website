@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-3 mb-6">
+            <Link href="/" className="flex items-center gap-3 mb-6 hover:opacity-80 transition-opacity">
               <Image 
                 src="/logo.jpeg" 
                 alt="Career Charm Logo" 
@@ -20,7 +21,7 @@ export default function Footer() {
                 <span className="font-heading font-bold text-xl text-white block leading-none">Career Charm</span>
                 <span className="font-mono text-[10px] text-white/50 tracking-wider">INTELLIGENCE LAB</span>
               </div>
-            </div>
+            </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-xs">
               India&apos;s premier career intelligence platform, helping students discover their true professional potential through scientific assessment.
             </p>
@@ -55,6 +56,9 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-bold text-white mb-4 text-sm">Platform</h4>
             <ul className="space-y-3">
+              <li>
+                <Link href="/about" className="text-white/60 hover:text-white text-sm transition-colors">About Us</Link>
+              </li>
               <li>
                   <a href="https://play.google.com/store/apps/details?id=com.careercharm.newapp" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white text-sm transition-colors">Take Assessment</a>
                 </li>
